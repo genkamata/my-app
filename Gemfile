@@ -36,6 +36,7 @@ gem 'devise-i18n-views'
 gem 'paperclip'
 gem 'fog'
 gem 'cloudinary'
+gem 'kaminari'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
