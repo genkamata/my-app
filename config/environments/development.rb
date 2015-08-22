@@ -38,4 +38,12 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+   config.paperclip_defaults = {
+    :use_timestamp => false,
+    :styles        => { large: '500x500>', medium: '300x300#', thumb: '120x120!' },
+    :url           => '/:attachment/:class/:id/:basename_:style.:extension',
+    :path          => ':rails_root/public:url',
+    :default_url   => '/:attachment/errors/missing_:style.png',
+    :default_style => :original
+  }
 end
