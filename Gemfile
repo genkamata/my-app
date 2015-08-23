@@ -37,7 +37,7 @@ gem 'paperclip'
 gem 'fog'
 gem 'cloudinary'
 gem 'kaminari'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -57,5 +57,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'rails-admin'
+  gem 'binding_of_caller'
+  gem 'better_errors'
 end
 

@@ -1,5 +1,4 @@
-production:
-  ucket: paperclip.aguuu.com
-  access_key_id: 1234...
-  secret_access_key: 1234...
-  s3_host_name: s3-ap-northeast-1.amazonaws.com
+bucket: 'kamagen'
+access_key_id: 'AKIAICQKZHP5FHFXRIBA'
+secret_access_key: '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'
+s3_host_name: 's3-ap-northeast-1.amazonaws.com' # tokyoリージョンの場合
